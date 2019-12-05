@@ -1,8 +1,8 @@
 package com.yj.constraintlayout20.layer
 
 import android.animation.ValueAnimator
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yj.constraintlayout20.R
 import kotlinx.android.synthetic.main.activity_layer.*
 
