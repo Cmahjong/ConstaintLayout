@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.yj.constraintlayout20.barrier.BarrierActivity
+import com.yj.constraintlayout20.gone_margin.GoneMarginActivity
 import com.yj.constraintlayout20.group.GroupActivity
 import com.yj.constraintlayout20.layer.LayerActivity
 import com.yj.constraintlayout20.layer.SelfLayerActivity
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity() {
         }
         tv_self_layer.setOnClickListener {
             startActivity(Intent(this, SelfLayerActivity::class.java))
+        }
+        tv_gone_margin.setOnClickListener {
+            startActivity(Intent(this, GoneMarginActivity::class.java))
         }
     }
 }
