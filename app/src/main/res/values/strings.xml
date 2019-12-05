@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ConstraintLayout2.0</string>
+    <string name="button1">Button1</string>
+    <string name="button2">Button2</string>
+    <string name="hide_button">隐藏上面两个Button</string>
+    <string name="show_button">显示上面两个Button</string>
 </resources>
