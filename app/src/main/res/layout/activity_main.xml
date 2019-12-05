@@ -91,4 +91,30 @@
             android:layout_width="match_parent"
             android:layout_height="1px"
             android:background="#f5f5f5" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_circle1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/img_circle2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#ff0077"
+                app:layout_constraintCircle="@+id/img_circle1"
+                app:layout_constraintCircleAngle="45"
+                app:layout_constraintCircleRadius="50dp"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="166dp"
+                tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
