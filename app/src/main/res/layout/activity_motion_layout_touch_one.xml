@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/motion_content"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/scene_motion_layout_touch_one"
+    tools:context=".motion_layout.MotionLayoutTouchOneActivity">
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/my_drawer"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
