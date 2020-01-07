@@ -11,6 +11,7 @@ import com.yj.constraintlayout20.layer.SelfLayerActivity
 import com.yj.constraintlayout20.motion_layout.MotionLayoutActivity
 import com.yj.constraintlayout20.motion_layout.MotionLayoutTouchActivity
 import com.yj.constraintlayout20.motion_layout.MotionLayoutTouchOneActivity
+import com.yj.constraintlayout20.motion_layout.MotionLayoutTouchTwoActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -34,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, GoneMarginActivity::class.java))
         }
         tv_motion_layout.setOnClickListener {
-            startActivity(Intent(this, MotionLayoutTouchOneActivity::class.java))
+            startActivity(Intent(this, MotionLayoutTouchTwoActivity::class.java))
         }
 
     }

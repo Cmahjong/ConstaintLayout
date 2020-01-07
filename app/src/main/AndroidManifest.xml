@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".motion_layout.MotionLayoutTouchOneActivity"></activity>
+        <activity android:name=".motion_layout.MotionLayoutTouchTwoActivity"></activity>
+        <activity android:name=".motion_layout.MotionLayoutTouchOneActivity" />
         <activity android:name=".motion_layout.MotionLayoutTouchActivity" />
         <activity android:name=".motion_layout.MotionLayoutActivity" />
         <activity android:name=".gone_margin.GoneMarginActivity" />
